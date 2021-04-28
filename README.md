@@ -1,6 +1,8 @@
 # TwitterBotApp
 **To use the app you'll need to have an api key access**
 
+You need to install the library tweepy with the command : "pip install tweepy"
+
 This app let you respond the amount of reply on others Tweets you want automatically with 2 modes :
 
 finish:
