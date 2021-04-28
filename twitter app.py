@@ -36,7 +36,7 @@ def finish(nombre_de_reponses, fin, response, langue):
     i = 0
     a = 0
 
-    tweets = tw.Cursor(api.search, q=fin, lang=langue).items(200)
+    tweets = tw.Cursor(api.search, q=fin, lang=langue).items(nombre_de_reponses*20)
     for tweet in tweets:
         a += 1
         texte = tweet.text
